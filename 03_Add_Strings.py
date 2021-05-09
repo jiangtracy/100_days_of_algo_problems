@@ -27,7 +27,8 @@ leetcode # 415
 '''
 
 
-def addStrings(self, num1: str, num2: str) -> str:
+def addStrings(num1, num2):
+    
     sum = []
     i = len(num1) - 1
     j = len(num2) - 1
